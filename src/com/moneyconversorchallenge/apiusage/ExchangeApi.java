@@ -12,7 +12,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ExchangeApi {
-    private static String API_KEY = "/134349369ac792bd4b7c8eab/";
+    private static String API_KEY = "YOUR APIKEY HERE";
 
     public static double conversor(String fromCurrency, String toCurrency, double amountToConvert) {
         Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
